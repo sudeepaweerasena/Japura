@@ -1,0 +1,17 @@
+.header-component {
+  display: flex;
+  flex-direction: column;  
+}
+
+.header-banner {
+  width: 100%; 
+  height: auto;  
+  
+}
+
+.header-logo {
+  width: 300px;  /* Width of the image */
+  height: auto; /* Height of the image, adjust as needed */ 
+  align-items: left;
+  padding: 15px;
+}

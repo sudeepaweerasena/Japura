@@ -1,0 +1,57 @@
+.calendar-container {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header button {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+}
+
+.calendar-header span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+  width: 14.28%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.calendar-table .booked {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.event-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.event-details p {
+  margin: 5px 0;
+}
+
+.calendar-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
